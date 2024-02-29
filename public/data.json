@@ -1,0 +1,591 @@
+{
+    "Arenas": [
+      {
+        "Name": "Anaheim",
+        "Attribute_Center": "sniper",
+        "Attribute_Winger": "inventive",
+        "Attribute_Defenseman": "dexterous",
+        "Attribute_Goalie": "active",
+        "Modifier": "Checked players cannot pass, but can perform clear ice passes.",
+        "fr_FR": null
+      },
+      {
+        "Name": "Boston",
+        "Attribute_Center": "face-off master",
+        "Attribute_Winger": "aware",
+        "Attribute_Defenseman": "dexterous",
+        "Attribute_Goalie": "mobile",
+        "Modifier": "the team making a line change may perform a free move action with any player, except the puck carrier.",
+        "fr_FR": null
+      },
+      {
+        "Name": "Buffalo",
+        "Attribute_Center": "sniper",
+        "Attribute_Winger": "coordinated",
+        "Attribute_Defenseman": "brisk",
+        "Attribute_Goalie": "bold",
+        "Modifier": "All actions performed by the goalies cannot be re-rolled.",
+        "fr_FR": null
+      },
+      {
+        "Name": "Calgary",
+        "Attribute_Center": "breakneck",
+        "Attribute_Winger": "sly",
+        "Attribute_Defenseman": "focused",
+        "Attribute_Goalie": "bold",
+        "Modifier": "Whenever performing a move action, a non-goalie player must move 2 or more squares, or cannot move at all.",
+        "fr_FR": null
+      },
+      {
+        "Name": "Chicago",
+        "Attribute_Center": "sniper",
+        "Attribute_Winger": "darting",
+        "Attribute_Defenseman": "disciplined",
+        "Attribute_Goalie": "mobile",
+        "Modifier": "The puck carrier can make a free pass instead of a reaction move (even when checked).",
+        "fr_FR": null
+      },
+      {
+        "Name": "Colombus",
+        "Attribute_Center": "playmaker",
+        "Attribute_Winger": "punchy",
+        "Attribute_Defenseman": "disciplined",
+        "Attribute_Goalie": "instinctive",
+        "Modifier": "Instead of a reaction move, you may swap places of any two of your players. Do not move the puck.",
+        "fr_FR": null
+      },
+      {
+        "Name": "Dallas",
+        "Attribute_Center": "agile",
+        "Attribute_Winger": "sly",
+        "Attribute_Defenseman": "coolheaded",
+        "Attribute_Goalie": "instinctive",
+        "Modifier": "May make a reaction move for each => symbol rolled, moving a different player each time.",
+        "fr_FR": null
+      },
+      {
+        "Name": "Denver",
+        "Attribute_Center": "gifted",
+        "Attribute_Winger": "unpredictable",
+        "Attribute_Defenseman": "hardest shot",
+        "Attribute_Goalie": "instinctive",
+        "Modifier": "When making a reaction move the player may perform a free move action instead.",
+        "fr_FR": null
+      },
+      {
+        "Name": "Detroit",
+        "Attribute_Center": "breakneck",
+        "Attribute_Winger": "inventive",
+        "Attribute_Defenseman": "skilled",
+        "Attribute_Goalie": "instinctive",
+        "Modifier": "regular actions can only be re-rolled once per activation.",
+        "fr_FR": null
+      },
+      {
+        "Name": "Edmonton",
+        "Attribute_Center": "unstoppable",
+        "Attribute_Winger": "vigilant",
+        "Attribute_Defenseman": "hardest shot",
+        "Attribute_Goalie": "bold",
+        "Modifier": "Hits are regular actions.",
+        "fr_FR": null
+      },
+      {
+        "Name": "Elmont",
+        "Attribute_Center": "unstoppable",
+        "Attribute_Winger": "tough",
+        "Attribute_Defenseman": "aggressive",
+        "Attribute_Goalie": "instinctive",
+        "Modifier": "After you successfully hit a player, opposing team spends 1 stamina.",
+        "fr_FR": null
+      },
+      {
+        "Name": "Glendale",
+        "Attribute_Center": "breakneck",
+        "Attribute_Winger": "vigilant",
+        "Attribute_Defenseman": "brisk",
+        "Attribute_Goalie": "active",
+        "Modifier": "After one team makes a line change, the other team may refresh 1 stamina.",
+        "fr_FR": null
+      },
+      {
+        "Name": "Los Angeles",
+        "Attribute_Center": "opportunistic",
+        "Attribute_Winger": "relentless",
+        "Attribute_Defenseman": "disciplined",
+        "Attribute_Goalie": "active",
+        "Modifier": "Pokes cannot be re-rolled.",
+        "fr_FR": null
+      },
+      {
+        "Name": "Montreal",
+        "Attribute_Center": "unstoppable",
+        "Attribute_Winger": "punchy",
+        "Attribute_Defenseman": "coolheaded",
+        "Attribute_Goalie": "active",
+        "Modifier": "After a player successfully performs a difficult action, that player's team refreshes 1 stamina.",
+        "fr_FR": null
+      },
+      {
+        "Name": "Nashville",
+        "Attribute_Center": "ready",
+        "Attribute_Winger": "punchy",
+        "Attribute_Defenseman": "fast",
+        "Attribute_Goalie": "mobile",
+        "Modifier": "When making a line change, roll 1 die. If you roll a (cross), no stamina is refreshed and your turn ends.",
+        "fr_FR": null
+      },
+      {
+        "Name": "New York",
+        "Attribute_Center": "opportunistic",
+        "Attribute_Winger": "coordinated",
+        "Attribute_Defenseman": "hardest shot",
+        "Attribute_Goalie": "mobile",
+        "Modifier": "Slap shots can be re-rolled.",
+        "fr_FR": null
+      },
+      {
+        "Name": "Newark",
+        "Attribute_Center": "agile",
+        "Attribute_Winger": "nimble",
+        "Attribute_Defenseman": "focused",
+        "Attribute_Goalie": "mobile",
+        "Modifier": "passes cannot be re-rolled.",
+        "fr_FR": null
+      },
+      {
+        "Name": "Ottawa",
+        "Attribute_Center": "tracking",
+        "Attribute_Winger": "darting",
+        "Attribute_Defenseman": "focused",
+        "Attribute_Goalie": "instinctive",
+        "Modifier": "When re-rolling, dice with => symbol are not re-rolled (as if they were blanks).",
+        "fr_FR": null
+      },
+      {
+        "Name": "Paradise",
+        "Attribute_Center": "tracking",
+        "Attribute_Winger": "unpredictable",
+        "Attribute_Defenseman": "aggressive",
+        "Attribute_Goalie": "mobile",
+        "Modifier": "You may refresh 1 stamina instead of making a reaction move.",
+        "fr_FR": null
+      },
+      {
+        "Name": "Philadelphia",
+        "Attribute_Center": "face-off master",
+        "Attribute_Winger": "darting",
+        "Attribute_Defenseman": "fast",
+        "Attribute_Goalie": "active",
+        "Modifier": "Making a reaction move with a goalie costs one stamina.",
+        "fr_FR": null
+      },
+      {
+        "Name": "Pittsburgh",
+        "Attribute_Center": "athletic",
+        "Attribute_Winger": "unpredictable",
+        "Attribute_Defenseman": "skilled",
+        "Attribute_Goalie": "active",
+        "Modifier": "After spending your last stamina, if that re-roll is successful, refresh 1 stamina.",
+        "fr_FR": null
+      },
+      {
+        "Name": "Raleigh",
+        "Attribute_Center": "gifted",
+        "Attribute_Winger": "inventive",
+        "Attribute_Defenseman": "tenacious",
+        "Attribute_Goalie": "bold",
+        "Modifier": "On each activation, if the initial dice roll (before using re-rolls) shows only blank results, refresh 1 stamina.",
+        "fr_FR": null
+      },
+      {
+        "Name": "San Jose",
+        "Attribute_Center": "ready",
+        "Attribute_Winger": "aware",
+        "Attribute_Defenseman": "tenacious",
+        "Attribute_Goalie": "instinctive",
+        "Modifier": "move actions cannot be re-rolled",
+        "fr_FR": null
+      },
+      {
+        "Name": "Seattle",
+        "Attribute_Center": "playmaker",
+        "Attribute_Winger": "tough",
+        "Attribute_Defenseman": "skilled",
+        "Attribute_Goalie": "mobile",
+        "Modifier": "While the puck is on clear ice, players can be activated any number of times in a row.",
+        "fr_FR": null
+      },
+      {
+        "Name": "St. Louis",
+        "Attribute_Center": "playmaker",
+        "Attribute_Winger": "nimble",
+        "Attribute_Defenseman": "dexterous",
+        "Attribute_Goalie": "bold",
+        "Modifier": "Dice with (puck) symbol are not re-rolled (as if they were blank).",
+        "fr_FR": null
+      },
+      {
+        "Name": "St. Paul",
+        "Attribute_Center": "tracking",
+        "Attribute_Winger": "coordinated",
+        "Attribute_Defenseman": "tenacious",
+        "Attribute_Goalie": "active",
+        "Modifier": "The goalie cannot perform a move action, except as the first activation of the turn.",
+        "fr_FR": null
+      },
+      {
+        "Name": "Sunrise",
+        "Attribute_Center": "athletic",
+        "Attribute_Winger": "relentless",
+        "Attribute_Defenseman": "tenacious",
+        "Attribute_Goalie": "mobile",
+        "Modifier": "After a team fails a pass, clear ice pass, shot, or a slapshot, the opposing team may move the puck 1 square in any direction.",
+        "fr_FR": null
+      },
+      {
+        "Name": "Tampa",
+        "Attribute_Center": "opportunistic",
+        "Attribute_Winger": "tough",
+        "Attribute_Defenseman": "fast",
+        "Attribute_Goalie": "bold",
+        "Modifier": "When rolling the dice to check if a fight will start, the fight starts on any non-blank result.",
+        "fr_FR": null
+      },
+      {
+        "Name": "Toronto",
+        "Attribute_Center": "gifted",
+        "Attribute_Winger": "sly",
+        "Attribute_Defenseman": "aggressive",
+        "Attribute_Goalie": "active",
+        "Modifier": "After either team fails an action, (after re-rolls) the opposing team may perform a free move action.",
+        "fr_FR": null
+      },
+      {
+        "Name": "Vancouver",
+        "Attribute_Center": "face-off master",
+        "Attribute_Winger": "nimble",
+        "Attribute_Defenseman": "brisk",
+        "Attribute_Goalie": "instinctive",
+        "Modifier": "If non of your players is the puck carrier, start the turn with one dice already in the dice pool.",
+        "fr_FR": null
+      },
+      {
+        "Name": "Vesilahti",
+        "Attribute_Center": "tracking",
+        "Attribute_Winger": "vigilant",
+        "Attribute_Defenseman": "coolheaded",
+        "Attribute_Goalie": "instinctive",
+        "Modifier": "puck carriers may perform a trick shot as a difficult action: flick the puck with your finger. If it stops on a net square, score a goal. Otherwise, give the puck to the opposing goalie and your turn ends.",
+        "fr_FR": null
+      },
+      {
+        "Name": "Washington, D.C.",
+        "Attribute_Center": "ready",
+        "Attribute_Winger": "relentless",
+        "Attribute_Defenseman": "coolheaded",
+        "Attribute_Goalie": "bold",
+        "Modifier": "Shot's cannot be re-rolled. After a failed shot or slap shot, unless the goalie makes a save, the current team's turn continues.",
+        "fr_FR": null
+      },
+      {
+        "Name": "Winnipeg",
+        "Attribute_Center": "athletic",
+        "Attribute_Winger": "aware",
+        "Attribute_Defenseman": "aggressive",
+        "Attribute_Goalie": "bold",
+        "Modifier": "After a successful hit, the hitting player may perform a free pass.",
+        "fr_FR": null
+      }
+    ],
+    "Attributes": [
+      {
+        "Name": "agile",
+        "Position": "Center",
+        "Size": 2,
+        "Speed": 3,
+        "Text": "Can change direction when performing a move action.",
+        "Text_fr_FR": null
+      },
+      {
+        "Name": "athletic",
+        "Position": "Center",
+        "Size": 2,
+        "Speed": 3,
+        "Text": "Can be activated a second time in a row; this action cannot be re-rolled.",
+        "Text_fr_FR": null
+      },
+      {
+        "Name": "breakneck",
+        "Position": "Center",
+        "Size": 2,
+        "Speed": 5,
+        "Text": "Speed 5!",
+        "Text_fr_FR": null
+      },
+      {
+        "Name": "face-off master",
+        "Position": "Center",
+        "Size": 2,
+        "Speed": 3,
+        "Text": "When rolling for face-off, all your blank results count as (puck).",
+        "Text_fr_FR": null
+      },
+      {
+        "Name": "gifted",
+        "Position": "Center",
+        "Size": 2,
+        "Speed": 3,
+        "Text": "If carried the puck when activated, after re-rolls, may change one (cross) into a blank.",
+        "Text_fr_FR": null
+      },
+      {
+        "Name": "opportunistic",
+        "Position": "Center",
+        "Size": 2,
+        "Speed": 3,
+        "Text": "Whenever the puck stops on clear ice, may perform a free move action.",
+        "Text_fr_FR": null
+      },
+      {
+        "Name": "playmaker",
+        "Position": "Center",
+        "Size": 2,
+        "Speed": 3,
+        "Text": "Clear ice pass is a regular action, if the puck is not crossing the red line.",
+        "Text_fr_FR": null
+      },
+      {
+        "Name": "ready",
+        "Position": "Center",
+        "Size": 2,
+        "Speed": 3,
+        "Text": "May move 1 square to receive a pass (before moving the puck and rolling).",
+        "Text_fr_FR": null
+      },
+      {
+        "Name": "sniper",
+        "Position": "Center",
+        "Size": 2,
+        "Speed": 3,
+        "Text": "May move 1 square before performing a shoot action (unless checked).",
+        "Text_fr_FR": null
+      },
+      {
+        "Name": "tracking",
+        "Position": "Center",
+        "Size": 2,
+        "Speed": 3,
+        "Text": "May move 1 square after the opposing puck carrier performs a move action.",
+        "Text_fr_FR": null
+      },
+      {
+        "Name": "unstoppable",
+        "Position": "Center",
+        "Size": 2,
+        "Speed": 3,
+        "Text": "After successfully performing a hit action, may perform a free hit action.",
+        "Text_fr_FR": null
+      },
+      {
+        "Name": "aware",
+        "Position": "Winger",
+        "Size": 1,
+        "Speed": 4,
+        "Text": "May pass, clear-ice pass, and receive passes through other players.",
+        "Text_fr_FR": null
+      },
+      {
+        "Name": "coordinated",
+        "Position": "Winger",
+        "Size": 1,
+        "Speed": 4,
+        "Text": "After a move, if carrying the puck, the second winger may perform a free move.",
+        "Text_fr_FR": null
+      },
+      {
+        "Name": "darting",
+        "Position": "Winger",
+        "Size": 1,
+        "Speed": 4,
+        "Text": "After a reaction move, may move one extra square in the same direction.",
+        "Text_fr_FR": null
+      },
+      {
+        "Name": "inventive",
+        "Position": "Winger",
+        "Size": 1,
+        "Speed": 4,
+        "Text": "When passing, or clear ice passing, may turn (puck) into blanks and vice-versa (after re-rolls).",
+        "Text_fr_FR": null
+      },
+      {
+        "Name": "nimble",
+        "Position": "Winger",
+        "Size": 1,
+        "Speed": 4,
+        "Text": "When not carrying the puck, may move and hit through players.",
+        "Text_fr_FR": null
+      },
+      {
+        "Name": "punchy",
+        "Position": "Winger",
+        "Size": 1,
+        "Speed": 4,
+        "Text": "May perform a slap shot as a regular action.",
+        "Text_fr_FR": null
+      },
+      {
+        "Name": "relentless",
+        "Position": "Winger",
+        "Size": 1,
+        "Speed": 4,
+        "Text": "If carrying the puck, after making a line change, may perform a free move action.",
+        "Text_fr_FR": null
+      },
+      {
+        "Name": "sly",
+        "Position": "Winger",
+        "Size": 1,
+        "Speed": 4,
+        "Text": "May perform a free move action after a successful poke action, even if checked.",
+        "Text_fr_FR": null
+      },
+      {
+        "Name": "tough",
+        "Position": "Winger",
+        "Size": 4,
+        "Speed": 4,
+        "Text": "Size 4!",
+        "Text_fr_FR": null
+      },
+      {
+        "Name": "unpredictable",
+        "Position": "Winger",
+        "Size": 1,
+        "Speed": 4,
+        "Text": "If carried the puck when activated, after re-rolls, may change one => into a blank.",
+        "Text_fr_FR": null
+      },
+      {
+        "Name": "vigilant",
+        "Position": "Winger",
+        "Size": 1,
+        "Speed": 4,
+        "Text": "If an opponent stops in an adjacent square, may make a free pass.",
+        "Text_fr_FR": null
+      },
+      {
+        "Name": "aggressive",
+        "Position": "Defenseman",
+        "Size": 3,
+        "Speed": 2,
+        "Text": "May move 1 square in any direction before performing a hit action.",
+        "Text_fr_FR": null
+      },
+      {
+        "Name": "brisk",
+        "Position": "Defenseman",
+        "Size": 3,
+        "Speed": 2,
+        "Text": "Can make reaction moves diagonally.",
+        "Text_fr_FR": null
+      },
+      {
+        "Name": "coolheaded",
+        "Position": "Defenseman",
+        "Size": 3,
+        "Speed": 2,
+        "Text": "Can perform difficult actions while checked.",
+        "Text_fr_FR": null
+      },
+      {
+        "Name": "dexterous",
+        "Position": "Defenseman",
+        "Size": 3,
+        "Speed": 2,
+        "Text": "Can poke and check diagonally.",
+        "Text_fr_FR": null
+      },
+      {
+        "Name": "disciplined",
+        "Position": "Defenseman",
+        "Size": 3,
+        "Speed": 2,
+        "Text": "Failed rolls do not result in fight or penalties.",
+        "Text_fr_FR": null
+      },
+      {
+        "Name": "fast",
+        "Position": "Defenseman",
+        "Size": 3,
+        "Speed": 3,
+        "Text": "Speed 3!",
+        "Text_fr_FR": null
+      },
+      {
+        "Name": "focused",
+        "Position": "Defenseman",
+        "Size": 3,
+        "Speed": 2,
+        "Text": "After making a reation move, make one reaction move with another player.",
+        "Text_fr_FR": null
+      },
+      {
+        "Name": "hardest shot",
+        "Position": "Defenseman",
+        "Size": 3,
+        "Speed": 2,
+        "Text": "Can make slapshots through other players and the goalie.",
+        "Text_fr_FR": null
+      },
+      {
+        "Name": "skilled",
+        "Position": "Defenseman",
+        "Size": 3,
+        "Speed": 2,
+        "Text": "May perform a free pass after a poke, or after a move to pick up the puck.",
+        "Text_fr_FR": null
+      },
+      {
+        "Name": "tenacious",
+        "Position": "Defenseman",
+        "Size": 3,
+        "Speed": 2,
+        "Text": "Checked opponents cannot use re-rolls.",
+        "Text_fr_FR": null
+      },
+      {
+        "Name": "active",
+        "Position": "Goalie",
+        "Size": 1,
+        "Speed": 1,
+        "Text": "After becoming the puck carrier, may move 1 square and perform a free pass.",
+        "Text_fr_FR": null
+      },
+      {
+        "Name": "bold",
+        "Position": "Goalie",
+        "Size": 1,
+        "Speed": 1,
+        "Text": "Can check opposing players.",
+        "Text_fr_FR": null
+      },
+      {
+        "Name": "instinctive",
+        "Position": "Goalie",
+        "Size": 1,
+        "Speed": 1,
+        "Text": "May move up to three times with one reaction move (orthogonally!)",
+        "Text_fr_FR": null
+      },
+      {
+        "Name": "mobile",
+        "Position": "Goalie",
+        "Size": 1,
+        "Speed": 1,
+        "Text": "Can move diagonally.",
+        "Text_fr_FR": null
+      }
+    ]
+  }

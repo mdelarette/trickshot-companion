@@ -1,0 +1,14 @@
+{
+    "title": "Bienvenue",
+    "description": {
+      "part1": "To get started, edit <1>src/App.js</1> and save to reload.",
+      "part2": "Switch language between english and german using buttons above."
+    },
+
+    "center": "Centre",
+    "winger": "Ailier",
+    "defenseman": "Défenseur",
+    "goalie": "Gardien",
+    "size": "Taille",
+    "speed": "Vitesse"
+  }

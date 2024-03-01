@@ -1,5 +1,7 @@
 import React, {useState, useEffect} from "react";
 
+import { useTranslation } from 'react-i18next';
+
 import { styled } from '@mui/material/styles';
 
 import TextField from '@mui/material/TextField';
@@ -16,6 +18,7 @@ const NotPrintable = styled('div')({
 
 const Arenas = ({}) =>
 {
+    const { t, i18n } = useTranslation();
 
     const [arenas, setArenas] = useState([]);
     const [attributes, setAttributes] = useState([]);
@@ -58,7 +61,7 @@ const Arenas = ({}) =>
         _arena.defenseman = attributes.find(attribute => attribute.Name === _arena.Attribute_Defenseman);
         _arena.goalie = attributes.find(attribute => attribute.Name === _arena.Attribute_Goalie);
 
-        console.log("Newly selected arena", _arena);
+        // console.log("Newly selected arena", _arena);
 
         setArena(_arena);
 
@@ -74,20 +77,21 @@ const Arenas = ({}) =>
 
         <>
 
-    <NotPrintable>
-            <TextField
-                select
-                value={arenaRank}
-                onChange={e => setArenaRank(e.target.value)}
-            >
-                {arenas.map((arena, index) => (
-                    <MenuItem key={index} value={index}>
-                        {arena.Name}
-                    </MenuItem>
-                ))}
-            </TextField>
-    </NotPrintable>
+            <NotPrintable>
+                <TextField
+                    select
+                    value={arenaRank}
+                    onChange={e => setArenaRank(e.target.value)}
+                >
+                    {arenas.map((arena, index) => (
+                        <MenuItem key={index} value={index}>
+                            {arena.Name}
+                        </MenuItem>
+                    ))}
+                </TextField>
+            </NotPrintable>
 
+            <h1>{t('title')}</h1>
 
             {arena && (
                 <ArenaView arena={arena}/>

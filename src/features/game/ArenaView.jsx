@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from "react";
 
 
-import TextField from '@mui/material/TextField';
+import Stack from '@mui/material/Stack';
 
 
 import ArenaCard from "./ArenaCard";
@@ -12,14 +12,17 @@ const ArenaView = ({arena}) =>
 {
     return (
         <>
+        <Stack direction={'row'} spacing={1} flexWrap="wrap">
+            <ArenaCard arena={arena} />
 
+            <PlayerCard player={arena.goalie} />
+
+            <PlayerCard player={arena.center} />
+            <PlayerCard player={arena.winger} />
+            <PlayerCard player={arena.defenseman} />
+            <PlayerCard player={arena.goalie} />
+        </Stack>
         
-        <ArenaCard arena={arena} />
-
-        <PlayerCard player={arena.center} />
-        <PlayerCard player={arena.winger} />
-        <PlayerCard player={arena.defenseman} />
-        <PlayerCard player={arena.goalie} />
         
     </>
 

@@ -12,11 +12,8 @@ const ArenaView = ({arena}) =>
 {
     return (
         <>
-        <Stack direction={'row'} spacing={1} flexWrap="wrap">
+        <Stack direction={'row'} spacing={8} flexWrap="wrap">
             <ArenaCard arena={arena} />
-
-            <PlayerCard player={arena.goalie} />
-
             <PlayerCard player={arena.center} />
             <PlayerCard player={arena.winger} />
             <PlayerCard player={arena.defenseman} />

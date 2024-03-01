@@ -14,3 +14,9 @@ https://mdelarette.github.io/trickshot-companion/index.html
 
 # Launch
 npm run dev
+
+
+npm version patch
+
+
+npm run deploy -- -m "Message"

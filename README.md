@@ -10,5 +10,7 @@ Thanks :
 https://github.com/selfthinker/CSS-Playing-Cards/blob/master/cards.css
 
 
+https://mdelarette.github.io/trickshot-companion/index.html
+
 # Launch
 npm run dev

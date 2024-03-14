@@ -82,6 +82,8 @@ const Arenas = ({}) =>
                     select
                     value={arenaRank}
                     onChange={e => setArenaRank(e.target.value)}
+                    label={t('arena_selection')}
+                    sx={{marginBottom: 1, minWidth:'200px'}}
                 >
                     {arenas.map((arena, index) => (
                         <MenuItem key={index} value={index}>
@@ -91,7 +93,6 @@ const Arenas = ({}) =>
                 </TextField>
             </NotPrintable>
 
-            <h1>{t('title')}</h1>
 
             {arena && (
                 <ArenaView arena={arena}/>

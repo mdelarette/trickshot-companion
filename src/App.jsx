@@ -6,6 +6,7 @@ import { LanguageContext } from './features/translation/Context.js';
 
 import './App.css'
 
+import Layout from './assets/Layout'
 import Arenas from './pages/Arenas'
 
 
@@ -23,7 +24,13 @@ function App() {
 
 
     <Suspense fallback={"loading"}>
-      <Arenas />
+
+      <Layout>
+
+        <Arenas />
+        
+      </Layout>
+
     </Suspense>
 
     </LanguageContext.Provider>

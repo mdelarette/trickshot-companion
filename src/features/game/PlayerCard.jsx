@@ -100,8 +100,9 @@ const PlayerCard = ({player}) =>
                         sx={{
                             flex:'grow',
                             height:'100%',
+                            width:3.5*72*1.2-12,
                             borderRadius: 3,
-                            backgroundColor:'white'
+                            backgroundColor:'orange'
                         }}
                     >
                         <Typography

@@ -1,7 +1,6 @@
-import React, {useState, useEffect} from "react";
+import React from "react";
 
-
-import Stack from '@mui/material/Stack';
+import Grid from '@mui/material/Grid';
 
 
 import ArenaCard from "./ArenaCard";
@@ -11,18 +10,23 @@ import PlayerCard from "./PlayerCard";
 const ArenaView = ({arena}) =>
 {
     return (
-        <>
-        <Stack direction={'row'} spacing={8} flexWrap="wrap">
-            <ArenaCard arena={arena} />
-            <PlayerCard player={arena.center} />
-            <PlayerCard player={arena.winger} />
-            <PlayerCard player={arena.defenseman} />
-            <PlayerCard player={arena.goalie} />
-        </Stack>
-        
-        
-    </>
-
+        <Grid container spacing={2} alignItems="center">
+            <Grid item xs={12} md={6} lg={4} xl={12}>
+                <ArenaCard arena={arena} />
+            </Grid>
+            <Grid item xs={12} md={6} lg={4} xl={3}>
+                <PlayerCard player={arena.center} />
+            </Grid>
+            <Grid item xs={12} md={6} lg={4} xl={3}>
+                <PlayerCard player={arena.winger} />
+            </Grid>
+            <Grid item xs={12} md={6} lg={4} xl={3}>
+                <PlayerCard player={arena.defenseman} />
+            </Grid>
+            <Grid item xs={12} md={6} lg={4} xl={3}>
+                <PlayerCard player={arena.goalie} />
+            </Grid>
+        </Grid>
     );
 };
 

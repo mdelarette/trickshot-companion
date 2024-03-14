@@ -73,8 +73,10 @@ const ArenaCard = ({arena}) =>
                         padding={'2px'}
                         display={'flex'}
                         alignItems={'center'}
+                        justifyContent={'center'}
                         sx={{
                             height:'100%',
+                            width:3.5*72*1.2-20,
                             borderRadius: 3,
                             backgroundColor:'white'
                         }}

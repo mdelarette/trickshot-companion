@@ -97,12 +97,13 @@ const PlayerCard = ({player}) =>
                         padding={'2px'}
                         display={'flex'}
                         alignItems={'center'}
+                        justifyContent={'center'}
                         sx={{
                             flex:'grow',
                             height:'100%',
-                            width:3.5*72*1.2-12,
+                            width:3.5*72*1.2-20,
                             borderRadius: 3,
-                            backgroundColor:'orange'
+                            backgroundColor:'white'
                         }}
                     >
                         <Typography

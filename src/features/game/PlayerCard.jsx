@@ -15,7 +15,7 @@ import Jauge from "./Jauge";
 
 const PlayerCard = ({player}) =>
 {
-    const userLangage = useContext(LanguageContext);
+    const {userLangage} = useContext(LanguageContext);
 
     const { t, i18n } = useTranslation();
 

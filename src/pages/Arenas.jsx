@@ -36,8 +36,8 @@ const Arenas = ({}) =>
             })
               .then((res) => res.json())
               .then((data) => {
-                console.log("Arenas", data.Arenas);
-                console.log("Attributes", data.Attributes);
+                // console.log("Arenas", data.Arenas);
+                // console.log("Attributes", data.Attributes);
                 setArenas(data.Arenas);
                 setAttributes(data.Attributes);
               });

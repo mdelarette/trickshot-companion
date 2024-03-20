@@ -27,7 +27,7 @@ i18n
       loadPath: "./locales/{{lng}}/{{ns}}.json",
     },
 
-    supportedLngs: ['en','fr'],
+    supportedLngs: ['en','fr','de'],
     interpolation: {
       escapeValue: false, // not needed for react as it escapes by default
     }

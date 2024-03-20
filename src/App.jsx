@@ -20,18 +20,18 @@ function App() {
 
   return (
 
-    <LanguageContext.Provider value={userLangage}>
+    <LanguageContext.Provider value={{userLangage, setUserLanguage}}>
 
 
-    <Suspense fallback={"loading"}>
+      <Suspense fallback={"loading"}>
 
-      <Layout>
+        <Layout>
 
-        <Arenas />
-        
-      </Layout>
+          <Arenas />
+          
+        </Layout>
 
-    </Suspense>
+      </Suspense>
 
     </LanguageContext.Provider>
 

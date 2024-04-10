@@ -13,9 +13,10 @@ import Box from '@mui/material/Box';
 
 const ArenaCard = ({arena}) =>
 {
-    const userLangage = useContext(LanguageContext);
+    const {userLangage} = useContext(LanguageContext);
 
-    console.log('ArenaCard', userLangage);
+    console.log('ArenaCard userLangage', userLangage);
+    console.log('ArenaCard arena', arena);
 
     return (
 
@@ -87,7 +88,7 @@ const ArenaCard = ({arena}) =>
                                 fontFamily: 'Anta, sans-serif'
                             }}
                         >
-                            {arena.Modifier}
+                            {arena[`${userLangage}`] ? arena[`${userLangage}`] : arena.Modifier}
                         </Typography>                    
                     </Box>
                     

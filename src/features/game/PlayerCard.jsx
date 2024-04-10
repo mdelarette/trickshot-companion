@@ -19,9 +19,9 @@ const PlayerCard = ({player}) =>
 
     const { t, i18n } = useTranslation();
 
-    console.log('PlayerCard', userLangage);
-    console.log('PlayerCard', `Text_${userLangage}`);
-    console.log('PlayerCard', player[`Text_${userLangage}`]);
+    // console.log('PlayerCard', userLangage);
+    // console.log('PlayerCard', `Text_${userLangage}`);
+    // console.log('PlayerCard', player[`Text_${userLangage}`]);
 
     return (
 
@@ -50,10 +50,9 @@ const PlayerCard = ({player}) =>
                     <Typography
                         sx={{
                             marginLeft: '40px',
-                            marginTop: '0px',
+                            marginTop: '-16px',
                             fontFamily: 'Anta, sans-serif',
                             fontStyle: 'italic',
-                            // textShadow: '0 0 4px #fff',
                             textShadow: '2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff, 1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff',
                             fontSize:'48px',
                             color:'blueviolet'

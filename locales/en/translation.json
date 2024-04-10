@@ -5,6 +5,7 @@
       "part2": "Switch language between english and german using buttons above."
     },
 
+    "language_selection": "Select your language",
     "arena_selection": "Select an arena",
 
     "center": "Center",

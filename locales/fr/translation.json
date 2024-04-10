@@ -5,6 +5,7 @@
       "part2": "Switch language between english and german using buttons above."
     },
 
+    "language_selection": "Choisir un langage",
     "arena_selection": "Choisir une patinoire",
 
     "center": "Centre",

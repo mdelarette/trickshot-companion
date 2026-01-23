@@ -14,6 +14,7 @@ import Typography from '@mui/material/Typography';
 import TextField from '@mui/material/TextField';
 import MenuItem from '@mui/material/MenuItem';
 
+import Box from '@mui/material/Box';
 import Breakpoint from './Breakpoint'
 
 const Layout = ({children}) =>
@@ -41,13 +42,27 @@ const Layout = ({children}) =>
                     
                 <TextField
                     select
-                    value={i18n.language}
+                    value={i18n.resolvedLanguage}
                     onChange={e => {changeLanguage(e.target.value);}}
                     label={t('language_selection')}
-                    sx={{marginBottom: 1, minWidth:'200px'}}
+                    sx={{
+                        minWidth:{ xs: 120, sm: 200},
+                        "& .MuiInputLabel-root": { color: 'white' },
+                        "& .MuiOutlinedInput-root": {
+                            "& fieldset": { borderColor: 'rgba(255, 255, 255, 0.5)' },
+                            "&:hover fieldset": { borderColor: 'white' },
+                            "&.Mui-focused fieldset": { borderColor: 'white' },
+                            color: 'white'
+                        },
+                        "& .MuiSelect-icon": { color: 'white' }
+                    }}
                     size="small"
+                    InputLabelProps={{ 
+                        shrink: true,
+                        sx: { color: 'white !important' }
+                    }}
                 >
-                    {i18n.languages.map((language, index) => (
+                    {i18n.options.supportedLngs.filter(lng => lng !== 'cimode').map((language, index) => (
                         <MenuItem key={index} value={language}>
                             {language}
                         </MenuItem>
@@ -55,12 +70,12 @@ const Layout = ({children}) =>
                 </TextField>
 
 
-                    <Typography sx={{ flexGrow: 1 }} variant="h6">
+                    <Typography sx={{ flexGrow: 1, textAlign:'center' }} variant="h6">
                     {t('title')}
                     </Typography>
                     
                     <Typography variant="h6">
-                            {`${packageInfo.name} - ${packageInfo.version}`}  <Breakpoint/>
+                        <Box component="span" sx={{display: { xs: 'none', md: 'inline' } }}>{packageInfo.name} - </Box>{packageInfo.version}  <Breakpoint/>
                     </Typography>
 
                     
@@ -68,7 +83,7 @@ const Layout = ({children}) =>
                 </Toolbar>
             </AppBar>
 
-            <Stack mt={5}>
+            <Stack sx={{mt: 8, p: { xs: 1, sm: 2 } }}>
                 {children}
             </Stack>   
 

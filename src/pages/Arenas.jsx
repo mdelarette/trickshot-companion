@@ -4,6 +4,7 @@ import { useTranslation } from 'react-i18next';
 
 import { styled } from '@mui/material/styles';
 
+import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 import MenuItem from '@mui/material/MenuItem';
 
@@ -78,19 +79,25 @@ const Arenas = ({}) =>
         <>
 
             <NotPrintable>
-                <TextField
-                    select
-                    value={arenaRank}
-                    onChange={e => setArenaRank(e.target.value)}
-                    label={t('arena_selection')}
-                    sx={{marginBottom: 1, minWidth:'200px'}}
-                >
-                    {arenas.map((arena, index) => (
-                        <MenuItem key={index} value={index}>
-                            {arena.Name}
+                <Box sx={{ maxWidth: { sm: 400 }, margin: 'auto' }}>
+                    <TextField
+                        select
+                        fullWidth
+                        value={arenaRank}
+                        onChange={e => setArenaRank(e.target.value)}
+                        label={t('arena_selection')}
+                        sx={{mb: 2}}
+                    >
+                        <MenuItem value="">
+                            <em>{t('arena_selection')}</em>
                         </MenuItem>
-                    ))}
-                </TextField>
+                        {arenas.map((arena, index) => (
+                            <MenuItem key={index} value={index}>
+                                {arena.Name}
+                            </MenuItem>
+                        ))}
+                    </TextField>
+                </Box>
             </NotPrintable>
 
 

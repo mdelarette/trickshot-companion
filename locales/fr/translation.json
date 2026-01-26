@@ -13,5 +13,22 @@
     "defenseman": "Défenseur",
     "goalie": "Gardien",
     "size": "Taille",
-    "speed": "Vitesse"
+    "speed": "Vitesse",
+
+    "settings": "Paramètres",
+    "close": "Fermer",
+    "arenas": "Patinoires",
+    "faceoff": "Mise en jeu",
+    "draw_card": "Tirer une carte",
+    "no_card_drawn": "Cliquez sur le bouton pour tirer une carte",
+    "image_placeholder": "Image à venir",
+    "cards_available": "{{count}} cartes disponibles",
+    "card_1": "Carte 1",
+    "card_2": "Carte 2",
+    "card_3": "Carte 3",
+    "card_4": "Carte 4",
+    "card_5": "Carte 5",
+    "card_6": "Carte 6",
+    "rotate": "Pivoter 180°",
+    "mirror": "Miroir"
   }

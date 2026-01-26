@@ -11,26 +11,26 @@ type ArenaViewProps = {
 const ArenaView = ({ arena }: ArenaViewProps) => {
   return (
     <Grid container spacing={2} alignItems="center">
-      <Grid item xs={12} md={6} lg={4} xl={12}>
+      <Grid size={{ xs: 12, md: 6, lg: 4, xl: 12 }}>
         <ArenaCard arena={arena} />
       </Grid>
       {arena.center && (
-        <Grid item xs={12} md={6} lg={4} xl={3}>
+        <Grid size={{ xs: 12, md: 6, lg: 4, xl: 3 }}>
           <PlayerCard player={arena.center} />
         </Grid>
       )}
       {arena.winger && (
-        <Grid item xs={12} md={6} lg={4} xl={3}>
+        <Grid size={{ xs: 12, md: 6, lg: 4, xl: 3 }}>
           <PlayerCard player={arena.winger} />
         </Grid>
       )}
       {arena.defenseman && (
-        <Grid item xs={12} md={6} lg={4} xl={3}>
+        <Grid size={{ xs: 12, md: 6, lg: 4, xl: 3 }}>
           <PlayerCard player={arena.defenseman} />
         </Grid>
       )}
       {arena.goalie && (
-        <Grid item xs={12} md={6} lg={4} xl={3}>
+        <Grid size={{ xs: 12, md: 6, lg: 4, xl: 3 }}>
           <PlayerCard player={arena.goalie} />
         </Grid>
       )}

@@ -13,5 +13,22 @@
     "defenseman": "Defenseman",
     "goalie": "Goalie",
     "size": "Size",
-    "speed": "Speed"
+    "speed": "Speed",
+
+    "settings": "Settings",
+    "close": "Close",
+    "arenas": "Arenas",
+    "faceoff": "Faceoff",
+    "draw_card": "Draw a card",
+    "no_card_drawn": "Click the button to draw a card",
+    "image_placeholder": "Image coming soon",
+    "cards_available": "{{count}} cards available",
+    "card_1": "Card 1",
+    "card_2": "Card 2",
+    "card_3": "Card 3",
+    "card_4": "Card 4",
+    "card_5": "Card 5",
+    "card_6": "Card 6",
+    "rotate": "Rotate 180°",
+    "mirror": "Mirror"
   }

@@ -17,13 +17,17 @@ const NotPrintable = styled('div')({
   },
 });
 
-const Arenas = () => {
+interface ArenasProps {
+  arenaRank: number | '';
+  setArenaRank: (rank: number | '') => void;
+}
+
+const Arenas = ({ arenaRank, setArenaRank }: ArenasProps) => {
   const { t } = useTranslation();
 
   const [arenas, setArenas] = useState<Arena[]>([]);
   const [attributes, setAttributes] = useState<Attribute[]>([]);
 
-  const [arenaRank, setArenaRank] = useState<number | ''>('');
   const [arena, setArena] = useState<Arena | null>(null);
 
   useEffect(() => {
@@ -45,7 +49,8 @@ const Arenas = () => {
   }, []);
 
   useEffect(() => {
-    if (arenaRank === '') {
+    if (arenaRank === '' || !arenas[arenaRank]) {
+      setArena(null);
       return;
     }
 
@@ -66,11 +71,18 @@ const Arenas = () => {
   return (
     <>
       <NotPrintable>
-        <Box sx={{ maxWidth: { sm: 400 }, margin: 'auto' }}>
+        <Box sx={{
+          maxWidth: { sm: 400 },
+          margin: 'auto',
+          position: 'sticky',
+          top: 64,
+          zIndex: 1,
+          py: 1
+        }}>
           <TextField
             select
             fullWidth
-            value={arenaRank}
+            value={arenaRank !== '' && arenas[arenaRank] ? arenaRank : ''}
             onChange={e => setArenaRank(e.target.value === '' ? '' : Number(e.target.value))}
             label={t('arena_selection')}
             sx={{ mb: 2 }}

@@ -30,5 +30,9 @@
     "card_5": "Carte 5",
     "card_6": "Carte 6",
     "rotate": "Pivoter 180°",
-    "mirror": "Miroir"
+    "mirror": "Miroir",
+    "export": "Export",
+    "print": "Imprimer",
+    "arena_cards": "Cartes Patinoires",
+    "player_cards": "Cartes Joueurs"
   }

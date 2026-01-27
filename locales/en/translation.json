@@ -30,5 +30,9 @@
     "card_5": "Card 5",
     "card_6": "Card 6",
     "rotate": "Rotate 180°",
-    "mirror": "Mirror"
+    "mirror": "Mirror",
+    "export": "Export",
+    "print": "Print",
+    "arena_cards": "Arena Cards",
+    "player_cards": "Player Cards"
   }

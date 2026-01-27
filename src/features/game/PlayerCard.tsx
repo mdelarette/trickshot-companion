@@ -28,7 +28,13 @@ const PlayerCard = ({ player }: PlayerCardProps) => {
       padding={'8px'}
       sx={{
         borderRadius: 3,
-        backgroundColor: 'white'
+        backgroundColor: 'white',
+        '@media print': {
+          border: '1px solid black',
+          borderRadius: 0,
+          backgroundColor: 'transparent',
+          padding: '2px'
+        }
       }}
     >
       <Box

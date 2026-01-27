@@ -16,8 +16,8 @@ import BottomToolbar from './BottomToolbar';
 
 type LayoutProps = {
   children: ReactNode;
-  currentPage: 'arenas' | 'faceoff';
-  onNavigate: (page: 'arenas' | 'faceoff') => void;
+  currentPage: 'arenas' | 'faceoff' | 'export';
+  onNavigate: (page: 'arenas' | 'faceoff' | 'export') => void;
 }
 
 const Layout = ({ children, currentPage, onNavigate }: LayoutProps) => {

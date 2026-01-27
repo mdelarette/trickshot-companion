@@ -6,6 +6,12 @@ body {
   background-color: rgb(198, 224, 224);
 }
 
+@media print {
+  body {
+    background-color: transparent;
+  }
+}
+
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;

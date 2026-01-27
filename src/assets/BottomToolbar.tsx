@@ -10,12 +10,13 @@ import Box from '@mui/material/Box';
 import SettingsIcon from '@mui/icons-material/Settings';
 import SportsHockeyIcon from '@mui/icons-material/SportsHockey';
 import IceSkatingIcon from '@mui/icons-material/IceSkating';
+import PrintIcon from '@mui/icons-material/Print';
 
 import SettingsDialog from '../features/settings/SettingsDialog';
 
 type BottomToolbarProps = {
-  currentPage: 'arenas' | 'faceoff';
-  onNavigate: (page: 'arenas' | 'faceoff') => void;
+  currentPage: 'arenas' | 'faceoff' | 'export';
+  onNavigate: (page: 'arenas' | 'faceoff' | 'export') => void;
 }
 
 const BottomToolbar = ({ currentPage, onNavigate }: BottomToolbarProps) => {
@@ -49,6 +50,19 @@ const BottomToolbar = ({ currentPage, onNavigate }: BottomToolbarProps) => {
               }}
             >
               <SportsHockeyIcon sx={{ color: 'white' }} />
+            </IconButton>
+          </Tooltip>
+
+          <Tooltip title={t('export')}>
+            <IconButton
+              color={currentPage === 'export' ? 'inherit' : 'default'}
+              onClick={() => onNavigate('export')}
+              sx={{
+                bgcolor: currentPage === 'export' ? 'rgba(255,255,255,0.2)' : 'transparent',
+                '&:hover': { bgcolor: 'rgba(255,255,255,0.3)' }
+              }}
+            >
+              <PrintIcon sx={{ color: 'white' }} />
             </IconButton>
           </Tooltip>
 

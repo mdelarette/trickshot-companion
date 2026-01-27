@@ -9,8 +9,9 @@ import './App.css'
 import Layout from './assets/Layout'
 import Arenas from './pages/Arenas'
 import Faceoff from './pages/Faceoff'
+import Export from './pages/Export'
 
-type PageType = 'arenas' | 'faceoff';
+type PageType = 'arenas' | 'faceoff' | 'export';
 
 function App() {
   const [userLangage, setUserLanguage] = useState(detectBrowserLanguage());
@@ -27,6 +28,7 @@ function App() {
         <Layout currentPage={currentPage} onNavigate={handleNavigate}>
           {currentPage === 'arenas' && <Arenas arenaRank={arenaRank} setArenaRank={setArenaRank} />}
           {currentPage === 'faceoff' && <Faceoff />}
+          {currentPage === 'export' && <Export />}
         </Layout>
       </Suspense>
     </LanguageContext.Provider>

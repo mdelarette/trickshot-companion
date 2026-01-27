@@ -3,3 +3,27 @@
   margin: 0 auto;
   width: 100%;
 }
+
+@media print {
+  /* Page margins */
+  @page {
+    margin: 0.5cm;
+  }
+
+  /* Hide navigation bars when printing */
+  header,
+  .MuiAppBar-root {
+    display: none !important;
+  }
+
+  /* Remove max-width constraint for printing */
+  #root {
+    max-width: none;
+  }
+
+  /* Ensure cards don't break across pages */
+  .print-card {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+}

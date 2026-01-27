@@ -21,8 +21,7 @@ i18n
   // for all options read: https://www.i18next.com/overview/configuration-options
   .init({
     fallbackLng: {
-      'fr-FR': ['fr', 'en'],
-      'fr-CA': ['fr', 'en'],
+      'fr-CA': ['fr-FR', 'en'],
       'default': ['en']
     },
     debug: true,
@@ -31,7 +30,7 @@ i18n
       loadPath: "./locales/{{lng}}/{{ns}}.json",
     },
 
-    supportedLngs: ['en', 'fr', 'fr-FR', 'fr-CA'],
+    supportedLngs: ['en', 'fr-FR', 'fr-CA'],
     interpolation: {
       escapeValue: false, // not needed for react as it escapes by default
     }

@@ -1,5 +1,5 @@
 {
-    "title": " Welcome",
+    "title": "Welcome to Trickshot Companion",
     "description": {
       "part1": "To get started, edit <1>src/App.js</1> and save to reload.",
       "part2": "Switch language between english and german using buttons above."
@@ -34,5 +34,14 @@
     "export": "Export",
     "print": "Print",
     "arena_cards": "Arena Cards",
-    "player_cards": "Player Cards"
+    "player_cards": "Player Cards",
+
+    "about": "About",
+    "about_description": "Unofficial companion app for the Trickshot board game. Manage arena cards and faceoffs.",
+    "credits": "Credits",
+    "game_designer": "Game Designer",
+    "artist": "Artist",
+    "publisher": "Publisher",
+    "game_references": "Game References",
+    "open_source_notice": "This application is open source and available on"
   }

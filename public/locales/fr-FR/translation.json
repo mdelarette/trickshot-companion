@@ -1,0 +1,47 @@
+{
+    "title": "Bienvenue dans Trickshot Companion",
+    "description": {
+      "part1": "To get started, edit <1>src/App.js</1> and save to reload.",
+      "part2": "Switch language between english and german using buttons above."
+    },
+
+    "language_selection": "Choisir une langue",
+    "arena_selection": "Choisir une patinoire",
+
+    "center": "Centre",
+    "winger": "Ailier",
+    "defenseman": "Défenseur",
+    "goalie": "Gardien",
+    "size": "Taille",
+    "speed": "Vitesse",
+
+    "settings": "Paramètres",
+    "close": "Fermer",
+    "arenas": "Patinoires",
+    "faceoff": "Mise en jeu",
+    "draw_card": "Tirer une carte",
+    "no_card_drawn": "Cliquez sur le bouton pour tirer une carte",
+    "image_placeholder": "Image à venir",
+    "cards_available": "{{count}} cartes disponibles",
+    "card_1": "Carte 1",
+    "card_2": "Carte 2",
+    "card_3": "Carte 3",
+    "card_4": "Carte 4",
+    "card_5": "Carte 5",
+    "card_6": "Carte 6",
+    "rotate": "Pivoter 180°",
+    "mirror": "Miroir",
+    "export": "Exporter",
+    "print": "Imprimer",
+    "arena_cards": "Cartes Patinoires",
+    "player_cards": "Cartes Joueurs",
+
+    "about": "À propos",
+    "about_description": "Application compagnon non officielle pour le jeu de société Trickshot. Permet de gérer les cartes patinoires et les mises en jeu.",
+    "credits": "Crédits",
+    "game_designer": "Designer du jeu",
+    "artist": "Artiste",
+    "publisher": "Éditeur",
+    "game_references": "Fiches de référence",
+    "open_source_notice": "Cette application est open source et disponible sur"
+  }

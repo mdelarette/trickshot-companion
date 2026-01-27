@@ -8,7 +8,7 @@
       "Attribute_Goalie": "active",
       "Modifier": {
         "en": "Checked players cannot pass, but can perform clear ice passes.",
-        "fr": "Les joueurs contrôlés ne peuvent pas passer mais peuvent faire des dégagements."
+        "fr-FR": "Les joueurs contrôlés ne peuvent pas passer mais peuvent faire des dégagements."
       }
     },
     {
@@ -18,8 +18,9 @@
       "Attribute_Defenseman": "dexterous",
       "Attribute_Goalie": "mobile",
       "Modifier": {
-        "en": "Tthe team making a line change may perform a free move action with any player, except the puck carrier.",
-        "fr": "L'équipe qui effectue un changement de ligne, peut effectuer une action gratuite \"déplacement\" avec n'importe quel joueur ne portant pas le palet."
+        "en": "The team making a line change may perform a free move action with any player, except the puck carrier.",
+        "fr-FR": "L'équipe qui effectue un changement de ligne, peut effectuer une action gratuite \"déplacement\" avec n'importe quel joueur ne portant pas le palet.",
+        "fr-CA": "L'équipe qui effectue un changement de ligne, peut effectuer une action gratuite \"déplacement\" avec n'importe quel joueur ne portant pas la rondelle."
       }
     },
     {
@@ -30,7 +31,7 @@
       "Attribute_Goalie": "bold",
       "Modifier": {
         "en": "All actions performed by the goalies cannot be re-rolled.",
-        "fr": "Les actions faites par des gardiens ne peuvent pas être relancés."
+        "fr-FR": "Les actions faites par des gardiens ne peuvent pas être relancés."
       }
     },
     {
@@ -41,7 +42,7 @@
       "Attribute_Goalie": "bold",
       "Modifier": {
         "en": "Whenever performing a move action, a non-goalie player must move 2 or more squares, or cannot move at all.",
-        "fr": "Les actions de \"déplacement\" des joueurs de champ, doivent être d'au moins 2 cases. (sinon le déplacement ne peut avoir lieu)"
+        "fr-FR": "Les actions de \"déplacement\" des joueurs de champ, doivent être d'au moins 2 cases. (sinon le déplacement ne peut avoir lieu)"
       }
     },
     {
@@ -52,7 +53,8 @@
       "Attribute_Goalie": "mobile",
       "Modifier": {
         "en": "The puck carrier can make a free pass instead of a reaction move (even when checked).",
-        "fr": "Le porteur du palet peut effectuer une action gratuite \"passe\" à la place d'un mouvement de réaction. (Même s'il est contrôlé.)"
+        "fr-FR": "Le porteur du palet peut effectuer une action gratuite \"passe\" à la place d'un mouvement de réaction. (Même s'il est contrôlé.)",
+        "fr-CA": "Le porteur de la rondelle peut effectuer une action gratuite \"passe\" à la place d'un mouvement de réaction. (Même s'il est contrôlé.)"
       }
     },
     {
@@ -63,7 +65,8 @@
       "Attribute_Goalie": "instinctive",
       "Modifier": {
         "en": "Instead of a reaction move, you may swap places of any two of your players. Do not move the puck.",
-        "fr": "À la place d'un mouvement de réaction, vous pouvez échanger la position de 2 de vos joueurs. (Sans déplacer le palet.)"
+        "fr-FR": "À la place d'un mouvement de réaction, vous pouvez échanger la position de 2 de vos joueurs. (Sans déplacer le palet.)",
+        "fr-CA": "À la place d'un mouvement de réaction, vous pouvez échanger la position de 2 de vos joueurs. (Sans déplacer la rondelle.)"
       }
     },
     {
@@ -74,7 +77,7 @@
       "Attribute_Goalie": "instinctive",
       "Modifier": {
         "en": "May make a reaction move for each => symbol rolled, moving a different player each time.",
-        "fr": "Vous pouvez réaliser un mouvement de réaction pour chaque symbole =>, avec un joueur différent à chaque mouvement."
+        "fr-FR": "Vous pouvez réaliser un mouvement de réaction pour chaque symbole =>, avec un joueur différent à chaque mouvement."
       }
     },
     {
@@ -85,7 +88,7 @@
       "Attribute_Goalie": "instinctive",
       "Modifier": {
         "en": "When making a reaction move the player may perform a free move action instead.",
-        "fr": "Au lieu d'un mouvement de réaction, vous pouvez effectuer une action gratuite \"déplacement\"."
+        "fr-FR": "Au lieu d'un mouvement de réaction, vous pouvez effectuer une action gratuite \"déplacement\"."
       }
     },
     {
@@ -96,7 +99,7 @@
       "Attribute_Goalie": "instinctive",
       "Modifier": {
         "en": "Regular actions can only be re-rolled once per activation.",
-        "fr": "Les actions faciles ne peuvent être relancées qu'une seule fois par activation."
+        "fr-FR": "Les actions faciles ne peuvent être relancées qu'une seule fois par activation."
       }
     },
     {
@@ -107,7 +110,7 @@
       "Attribute_Goalie": "bold",
       "Modifier": {
         "en": "Hits are regular actions.",
-        "fr": "Les charges deviennent des actions faciles, on peut donc les relancer."
+        "fr-FR": "Les charges deviennent des actions faciles, on peut donc les relancer."
       }
     },
     {
@@ -118,7 +121,7 @@
       "Attribute_Goalie": "instinctive",
       "Modifier": {
         "en": "After you successfully hit a player, opposing team spends 1 stamina.",
-        "fr": "Après une charge réussie, l'équipe adverse perd 1 endurance."
+        "fr-FR": "Après une charge réussie, l'équipe adverse perd 1 endurance."
       }
     },
     {
@@ -129,7 +132,7 @@
       "Attribute_Goalie": "active",
       "Modifier": {
         "en": "After one team makes a line change, the other team may refresh 1 stamina.",
-        "fr": "Lorsqu'une équipe effectue un changement de ligne, l'équipe adverse peut récupérer une endurance."
+        "fr-FR": "Lorsqu'une équipe effectue un changement de ligne, l'équipe adverse peut récupérer une endurance."
       }
     },
     {
@@ -140,7 +143,7 @@
       "Attribute_Goalie": "active",
       "Modifier": {
         "en": "Pokes cannot be re-rolled.",
-        "fr": "L'action \"piquer\" devient difficile et ne peut donc pas être relancée."
+        "fr-FR": "L'action \"piquer\" devient difficile et ne peut donc pas être relancée."
       }
     },
     {
@@ -151,7 +154,7 @@
       "Attribute_Goalie": "active",
       "Modifier": {
         "en": "After a player successfully performs a difficult action, that player's team refreshes 1 stamina.",
-        "fr": "Lorsqu'un joueur réussi une action difficile, son équipe récupère une endurance."
+        "fr-FR": "Lorsqu'un joueur réussi une action difficile, son équipe récupère une endurance."
       }
     },
     {
@@ -162,7 +165,7 @@
       "Attribute_Goalie": "mobile",
       "Modifier": {
         "en": "When making a line change, roll 1 die. If you roll a (cross), no stamina is refreshed and your turn ends.",
-        "fr": "Lorsque vous effectuez un changement de ligne, lancez un dé, sur une (croix), l'endurance n'est pas récupérée et votre tour s'arrête."
+        "fr-FR": "Lorsque vous effectuez un changement de ligne, lancez un dé, sur une (croix), l'endurance n'est pas récupérée et votre tour s'arrête."
       }
     },
     {
@@ -173,7 +176,7 @@
       "Attribute_Goalie": "mobile",
       "Modifier": {
         "en": "Slap shots can be re-rolled.",
-        "fr": "L'action \"tir frappé\" peut-être relancée."
+        "fr-FR": "L'action \"tir frappé\" peut-être relancée."
       }
     },
     {
@@ -184,7 +187,7 @@
       "Attribute_Goalie": "mobile",
       "Modifier": {
         "en": "Passes cannot be re-rolled.",
-        "fr": "L'action \"passe\" ne peut- pas être relancée."
+        "fr-FR": "L'action \"passe\" ne peut pas être relancée."
       }
     },
     {
@@ -195,7 +198,7 @@
       "Attribute_Goalie": "instinctive",
       "Modifier": {
         "en": "When re-rolling, dice with => symbol are not re-rolled (as if they were blanks).",
-        "fr": "Lors d'une relance, les symboles => ne sont pas relancés."
+        "fr-FR": "Lors d'une relance, les symboles => ne sont pas relancés."
       }
     },
     {
@@ -206,7 +209,7 @@
       "Attribute_Goalie": "mobile",
       "Modifier": {
         "en": "You may refresh 1 stamina instead of making a reaction move.",
-        "fr": "Vous pouvez récupérer une endurance au lieu d'effectuer un mouvement de réaction."
+        "fr-FR": "Vous pouvez récupérer une endurance au lieu d'effectuer un mouvement de réaction."
       }
     },
     {
@@ -217,7 +220,7 @@
       "Attribute_Goalie": "active",
       "Modifier": {
         "en": "Making a reaction move with a goalie costs one stamina.",
-        "fr": "Effectuer un mouvement de réaction avec un gardien coûte une endurance."
+        "fr-FR": "Effectuer un mouvement de réaction avec un gardien coûte une endurance."
       }
     },
     {
@@ -228,7 +231,7 @@
       "Attribute_Goalie": "active",
       "Modifier": {
         "en": "After spending your last stamina, if that re-roll is successful, refresh 1 stamina.",
-        "fr": "Après avoir dépenser votre dernière endurance, si cette relance est réussie, récupérer une endurance."
+        "fr-FR": "Après avoir dépensé votre dernière endurance, si cette relance est réussie, récupérez une endurance."
       }
     },
     {
@@ -239,7 +242,7 @@
       "Attribute_Goalie": "bold",
       "Modifier": {
         "en": "On each activation, if the initial dice roll (before using re-rolls) shows only blank results, refresh 1 stamina.",
-        "fr": "A chaque activation, si le premier jet de dé ne comporte que des blancs, récuperer une endurance."
+        "fr-FR": "À chaque activation, si le premier jet de dé ne comporte que des blancs, récupérez une endurance."
       }
     },
     {
@@ -250,7 +253,7 @@
       "Attribute_Goalie": "instinctive",
       "Modifier": {
         "en": "Move actions cannot be re-rolled.",
-        "fr": "Les actions de \"déplacement\" ne peuvent pas être relancées."
+        "fr-FR": "Les actions de \"déplacement\" ne peuvent pas être relancées."
       }
     },
     {
@@ -261,7 +264,8 @@
       "Attribute_Goalie": "mobile",
       "Modifier": {
         "en": "While the puck is on clear ice, players can be activated any number of times in a row.",
-        "fr": "Tant que le palet est libre, les joueurs peuvent être activer plusieurs fois d'affilé."
+        "fr-FR": "Tant que le palet est libre, les joueurs peuvent être activés plusieurs fois d'affilée.",
+        "fr-CA": "Tant que la rondelle est libre, les joueurs peuvent être activés plusieurs fois d'affilée."
       }
     },
     {
@@ -272,7 +276,8 @@
       "Attribute_Goalie": "bold",
       "Modifier": {
         "en": "Dice with (puck) symbol are not re-rolled (as if they were blank).",
-        "fr": "Les symboles (palet) ne sont pas relancés."
+        "fr-FR": "Les symboles (palet) ne sont pas relancés.",
+        "fr-CA": "Les symboles (rondelle) ne sont pas relancés."
       }
     },
     {
@@ -283,7 +288,7 @@
       "Attribute_Goalie": "active",
       "Modifier": {
         "en": "The goalie cannot perform a move action, except as the first activation of the turn.",
-        "fr": "Le gardien ne peut effectuer une action de \"déplacement\", à moins que ça ne soit la première action du tour."
+        "fr-FR": "Le gardien ne peut effectuer une action de \"déplacement\", à moins que ça ne soit la première action du tour."
       }
     },
     {
@@ -294,7 +299,8 @@
       "Attribute_Goalie": "mobile",
       "Modifier": {
         "en": "After a team fails a pass, clear ice pass, shot, or a slapshot, the opposing team may move the puck 1 square in any direction.",
-        "fr": "Lorsqu'une équipe échoue une action de passe, de dégagement, de tir ou de tir frappé, l'quipe adverse peut déplacer le palet d'une cas dans n'importe quelle direction."
+        "fr-FR": "Lorsqu'une équipe échoue une action de passe, de dégagement, de tir ou de tir frappé, l'équipe adverse peut déplacer le palet d'une case dans n'importe quelle direction.",
+        "fr-CA": "Lorsqu'une équipe échoue une action de passe, de dégagement, de tir ou de tir frappé, l'équipe adverse peut déplacer la rondelle d'une case dans n'importe quelle direction."
       }
     },
     {
@@ -305,7 +311,7 @@
       "Attribute_Goalie": "bold",
       "Modifier": {
         "en": "When rolling the dice to check if a fight will start, the fight starts on any non-blank result.",
-        "fr": "Lorsqu'un dé est lancé pour vérifier le début d'un combat, tout résultat non blanc provoque le début du combat."
+        "fr-FR": "Lorsqu'un dé est lancé pour vérifier le début d'un combat, tout résultat non blanc provoque le début du combat."
       }
     },
     {
@@ -316,7 +322,7 @@
       "Attribute_Goalie": "active",
       "Modifier": {
         "en": "After either team fails an action, (after re-rolls) the opposing team may perform a free move action.",
-        "fr": "Lorsqu'une équipe échoue une action, l'équipe adverse peut effectuer un action de déplacement gratuite."
+        "fr-FR": "Lorsqu'une équipe échoue une action, l'équipe adverse peut effectuer un action de déplacement gratuite."
       }
     },
     {
@@ -326,8 +332,9 @@
       "Attribute_Defenseman": "brisk",
       "Attribute_Goalie": "instinctive",
       "Modifier": {
-        "en": "If non of your players is the puck carrier, start the turn with one dice already in the dice pool.",
-        "fr": "Si votre équipe n'est pas en possession du palet au début de votre tour, ajouter un dé à votre \"pool\" de dé."
+        "en": "If none of your players is the puck carrier, start the turn with one dice already in the dice pool.",
+        "fr-FR": "Si votre équipe n'est pas en possession du palet au début de votre tour, ajouter un dé à votre \"pool\" de dé.",
+        "fr-CA": "Si votre équipe n'est pas en possession de la rondelle au début de votre tour, ajouter un dé à votre \"pool\" de dé."
       }
     },
     {
@@ -338,7 +345,8 @@
       "Attribute_Goalie": "instinctive",
       "Modifier": {
         "en": "Puck carriers may perform a trick shot as a difficult action: flick the puck with your finger. If it stops on a net square, score a goal. Otherwise, give the puck to the opposing goalie and your turn ends.",
-        "fr": "Le porteur du palet peut effectuer un \"trick-shot' en tant qu'action difficile : faire une pichenette avec le palet, s'il s'arrête sur une case but, vous marquez un but. Sinon, donnez le palet au gardien adverse et votre tour s'arrête."
+        "fr-FR": "Le porteur du palet peut effectuer un \"trick-shot' en tant qu'action difficile : faire une pichenette avec le palet, s'il s'arrête sur une case but, vous marquez un but. Sinon, donnez le palet au gardien adverse et votre tour s'arrête.",
+        "fr-CA": "Le porteur de la rondelle peut effectuer un \"trick-shot' en tant qu'action difficile : faire une pichenette avec la rondelle, si elle s'arrête sur une case but, vous marquez un but. Sinon, donnez la rondelle au gardien adverse et votre tour s'arrête."
       }
     },
     {
@@ -349,7 +357,7 @@
       "Attribute_Goalie": "bold",
       "Modifier": {
         "en": "Shot's cannot be re-rolled. After a failed shot or slap shot, unless the goalie makes a save, the current team's turn continues.",
-        "fr": "Les tirs ne peuvent pas être relancés. Après l'échec d'un tir ou d'un tir frappé, si le gardien n'a pas fait l'arrêt, le tour continue."
+        "fr-FR": "Les tirs ne peuvent pas être relancés. Après l'échec d'un tir ou d'un tir frappé, si le gardien n'a pas fait l'arrêt, le tour continue."
       }
     },
     {
@@ -360,7 +368,7 @@
       "Attribute_Goalie": "bold",
       "Modifier": {
         "en": "After a successful hit, the hitting player may perform a free pass.",
-        "fr": "Après une charge réussie, le joueur peut effectuer une passe gratuite."
+        "fr-FR": "Après une charge réussie, le joueur peut effectuer une passe gratuite."
       }
     }
   ],
@@ -372,7 +380,7 @@
       "Speed": 3,
       "Text": {
         "en": "Can change direction when performing a move action.",
-        "fr": "Peut changer de direction lors d'un déplacement."
+        "fr-FR": "Peut changer de direction lors d'un déplacement."
       }
     },
     {
@@ -382,7 +390,7 @@
       "Speed": 3,
       "Text": {
         "en": "Can be activated a second time in a row; this action cannot be re-rolled.",
-        "fr": "Peut être activer une deuxième fois d'affillé, cette action ne peut pas être relancée."
+        "fr-FR": "Peut être activé une deuxième fois d'affilée, cette action ne peut pas être relancée."
       }
     },
     {
@@ -392,7 +400,7 @@
       "Speed": 5,
       "Text": {
         "en": "Speed 5!",
-        "fr": "Vitesse 5 !"
+        "fr-FR": "Vitesse 5 !"
       }
     },
     {
@@ -402,7 +410,8 @@
       "Speed": 3,
       "Text": {
         "en": "When rolling for face-off, all your blank results count as (puck).",
-        "fr": "Lors de la mise au jeu, tout (blanc) compte comme un (palet)."
+        "fr-FR": "Lors de la mise au jeu, tout (blanc) compte comme un (palet).",
+        "fr-CA": "Lors de la mise au jeu, tout (blanc) compte comme une (rondelle)."
       }
     },
     {
@@ -412,7 +421,8 @@
       "Speed": 3,
       "Text": {
         "en": "If carried the puck when activated, after re-rolls, may change one (cross) into a blank.",
-        "fr": "S'il porte le palet lors de son activation, après les relances, il peut changer une (croix) en un (blanc)."
+        "fr-FR": "S'il porte le palet lors de son activation, après les relances, il peut changer une (croix) en un (blanc).",
+        "fr-CA": "S'il porte la rondelle lors de son activation, après les relances, il peut changer une (croix) en un (blanc)."
       }
     },
     {
@@ -422,7 +432,8 @@
       "Speed": 3,
       "Text": {
         "en": "Whenever the puck stops on clear ice, may perform a free move action.",
-        "fr": "A chaque fois que le palet s'arrête sur une case libre, peut effectuer une action de déplacement gratuite."
+        "fr-FR": "À chaque fois que le palet s'arrête sur une case libre, peut effectuer une action de déplacement gratuite.",
+        "fr-CA": "À chaque fois que la rondelle s'arrête sur une case libre, peut effectuer une action de déplacement gratuite."
       }
     },
     {
@@ -432,7 +443,8 @@
       "Speed": 3,
       "Text": {
         "en": "Clear ice pass is a regular action, if the puck is not crossing the red line.",
-        "fr": "L'action de dégagement est une action facile, si le palet ne passe pas la ligne rouge."
+        "fr-FR": "L'action de dégagement est une action facile, si le palet ne passe pas la ligne rouge.",
+        "fr-CA": "L'action de dégagement est une action facile, si la rondelle ne passe pas la ligne rouge."
       }
     },
     {
@@ -442,7 +454,8 @@
       "Speed": 3,
       "Text": {
         "en": "May move 1 square to receive a pass (before moving the puck and rolling).",
-        "fr": "Peut se déplacer d'une case pour recevoir une passe (avant de déplacer le palet et lancer les dés)."
+        "fr-FR": "Peut se déplacer d'une case pour recevoir une passe (avant de déplacer le palet et lancer les dés).",
+        "fr-CA": "Peut se déplacer d'une case pour recevoir une passe (avant de déplacer la rondelle et lancer les dés)."
       }
     },
     {
@@ -452,7 +465,7 @@
       "Speed": 3,
       "Text": {
         "en": "May move 1 square before performing a shoot action (unless checked).",
-        "fr": "Peut se déplacer d'une case avant d'effectuer une action de tir (à moins d'être en échec)."
+        "fr-FR": "Peut se déplacer d'une case avant d'effectuer une action de tir (à moins d'être en échec)."
       }
     },
     {
@@ -462,7 +475,8 @@
       "Speed": 3,
       "Text": {
         "en": "May move 1 square after the opposing puck carrier performs a move action.",
-        "fr": "Peut se déplacer d'une case après que l'adversaire ai déplacé le porteur du palet."
+        "fr-FR": "Peut se déplacer d'une case après que l'adversaire ait déplacé le porteur du palet.",
+        "fr-CA": "Peut se déplacer d'une case après que l'adversaire ait déplacé le porteur de la rondelle."
       }
     },
     {
@@ -472,7 +486,7 @@
       "Speed": 3,
       "Text": {
         "en": "After successfully performing a hit action, may perform a free hit action.",
-        "fr": "Après une action de charge réussie, peut effectuer une action de charge gratuite.  ( ??? )"
+        "fr-FR": "Après une action de charge réussie, peut effectuer une action de charge gratuite."
       }
     },
     {
@@ -482,7 +496,7 @@
       "Speed": 4,
       "Text": {
         "en": "May pass, clear-ice pass, and receive passes through other players.",
-        "fr": "Peut passer, dégager et recevoir des passes à travers d'autres joueurs."
+        "fr-FR": "Peut passer, dégager et recevoir des passes à travers d'autres joueurs."
       }
     },
     {
@@ -492,7 +506,8 @@
       "Speed": 4,
       "Text": {
         "en": "After a move, if carrying the puck, the second winger may perform a free move.",
-        "fr": "Après un déplacement, s'il porte le palet, le deuxième ailier peut effectuer une action de déplacement gratuite."
+        "fr-FR": "Après un déplacement, s'il porte le palet, le deuxième ailier peut effectuer une action de déplacement gratuite.",
+        "fr-CA": "Après un déplacement, s'il porte la rondelle, le deuxième ailier peut effectuer une action de déplacement gratuite."
       }
     },
     {
@@ -502,7 +517,7 @@
       "Speed": 4,
       "Text": {
         "en": "After a reaction move, may move one extra square in the same direction.",
-        "fr": "Après un déplacement de réaction, peut se déplacer d'une case supplémentaire dans la même direction."
+        "fr-FR": "Après un déplacement de réaction, peut se déplacer d'une case supplémentaire dans la même direction."
       }
     },
     {
@@ -512,7 +527,8 @@
       "Speed": 4,
       "Text": {
         "en": "When passing, or clear ice passing, may turn (puck) into blanks and vice-versa (after re-rolls).",
-        "fr": "Lorsqu'il passe ou effectue un dégagement, peut changer (palet) en (blanc) et inversement, après les relances."
+        "fr-FR": "Lorsqu'il passe ou effectue un dégagement, peut changer (palet) en (blanc) et inversement, après les relances.",
+        "fr-CA": "Lorsqu'il passe ou effectue un dégagement, peut changer (rondelle) en (blanc) et inversement, après les relances."
       }
     },
     {
@@ -522,7 +538,8 @@
       "Speed": 4,
       "Text": {
         "en": "When not carrying the puck, may move and hit through players.",
-        "fr": "Lorsqu'il ne porte pas le palet, peut se déplacer et charger à travers les joueurs."
+        "fr-FR": "Lorsqu'il ne porte pas le palet, peut se déplacer et charger à travers les joueurs.",
+        "fr-CA": "Lorsqu'il ne porte pas la rondelle, peut se déplacer et charger à travers les joueurs."
       }
     },
     {
@@ -532,7 +549,7 @@
       "Speed": 4,
       "Text": {
         "en": "May perform a slap shot as a regular action.",
-        "fr": "Peut effectuer un tir frappé comme une action facile."
+        "fr-FR": "Peut effectuer un tir frappé comme une action facile."
       }
     },
     {
@@ -542,7 +559,8 @@
       "Speed": 4,
       "Text": {
         "en": "If carrying the puck, after making a line change, may perform a free move action.",
-        "fr": "S'il porte le palet, après un changement de ligne, peut effectuer une action de déplacement gratuite."
+        "fr-FR": "S'il porte le palet, après un changement de ligne, peut effectuer une action de déplacement gratuite.",
+        "fr-CA": "S'il porte la rondelle, après un changement de ligne, peut effectuer une action de déplacement gratuite."
       }
     },
     {
@@ -552,7 +570,7 @@
       "Speed": 4,
       "Text": {
         "en": "May perform a free move action after a successful poke action, even if checked.",
-        "fr": "Peut effectuer une action de déplacement gratuite après la réussite d'une action piiquer, même si en échec."
+        "fr-FR": "Peut effectuer une action de déplacement gratuite après la réussite d'une action piquer, même si en échec."
       }
     },
     {
@@ -562,7 +580,7 @@
       "Speed": 4,
       "Text": {
         "en": "Size 4!",
-        "fr": "Taille 4 !"
+        "fr-FR": "Taille 4 !"
       }
     },
     {
@@ -572,7 +590,8 @@
       "Speed": 4,
       "Text": {
         "en": "If carried the puck when activated, after re-rolls, may change one => into a blank.",
-        "fr": "S'il porte le palet lors de son activation, peut changer une => en un (blanc) après les relances."
+        "fr-FR": "S'il porte le palet lors de son activation, peut changer une => en un (blanc) après les relances.",
+        "fr-CA": "S'il porte la rondelle lors de son activation, peut changer une => en un (blanc) après les relances."
       }
     },
     {
@@ -582,7 +601,7 @@
       "Speed": 4,
       "Text": {
         "en": "If an opponent stops in an adjacent square, may make a free pass.",
-        "fr": "Si un joueur adverse s'arrête sur une case adjacente, peut effectuer une action de passe gratuite."
+        "fr-FR": "Si un joueur adverse s'arrête sur une case adjacente, peut effectuer une action de passe gratuite."
       }
     },
     {
@@ -592,7 +611,7 @@
       "Speed": 2,
       "Text": {
         "en": "May move 1 square in any direction before performing a hit action.",
-        "fr": "Peut se déplacer d'une case dans n'importe quelle direction avant d'effectuer une action de charge."
+        "fr-FR": "Peut se déplacer d'une case dans n'importe quelle direction avant d'effectuer une action de charge."
       }
     },
     {
@@ -602,7 +621,7 @@
       "Speed": 2,
       "Text": {
         "en": "Can make reaction moves diagonally.",
-        "fr": "Peut effectuer ses mouvements de réaction diagonalement."
+        "fr-FR": "Peut effectuer ses mouvements de réaction diagonalement."
       }
     },
     {
@@ -612,7 +631,7 @@
       "Speed": 2,
       "Text": {
         "en": "Can perform difficult actions while checked.",
-        "fr": "Peut effectuer des actions difficiles lorsqu'il est en échec."
+        "fr-FR": "Peut effectuer des actions difficiles lorsqu'il est en échec."
       }
     },
     {
@@ -622,7 +641,7 @@
       "Speed": 2,
       "Text": {
         "en": "Can poke and check diagonally.",
-        "fr": "Peut piquer et charger diagonnalement."
+        "fr-FR": "Peut piquer et charger diagonalement."
       }
     },
     {
@@ -632,7 +651,7 @@
       "Speed": 2,
       "Text": {
         "en": "Failed rolls do not result in fight or penalties.",
-        "fr": "Les échecs ne conduisent pas à des combats ou des pénalités."
+        "fr-FR": "Les échecs ne conduisent pas à des combats ou des pénalités."
       }
     },
     {
@@ -642,7 +661,7 @@
       "Speed": 3,
       "Text": {
         "en": "Speed 3!",
-        "fr": "Vitesse 3 !"
+        "fr-FR": "Vitesse 3 !"
       }
     },
     {
@@ -651,8 +670,8 @@
       "Size": 3,
       "Speed": 2,
       "Text": {
-        "en": "After making a reation move, make one reaction move with another player.",
-        "fr": "Après avoir effectuer un mouvement de réaction, effectuer un mouvement de réaction avec un autre joueur."
+        "en": "After making a reaction move, make one reaction move with another player.",
+        "fr-FR": "Après avoir effectuer un mouvement de réaction, effectuer un mouvement de réaction avec un autre joueur."
       }
     },
     {
@@ -662,7 +681,7 @@
       "Speed": 2,
       "Text": {
         "en": "Can make slapshots through other players and the goalie.",
-        "fr": "Peut effectuer des tirs frappés à travers d'autres joueurs et le gardien."
+        "fr-FR": "Peut effectuer des tirs frappés à travers d'autres joueurs et le gardien."
       }
     },
     {
@@ -672,7 +691,8 @@
       "Speed": 2,
       "Text": {
         "en": "May perform a free pass after a poke, or after a move to pick up the puck.",
-        "fr": "Peut effectuer une action de passe gratuite après un piquer ou après un mouvement pour récupérer le palet."
+        "fr-FR": "Peut effectuer une action de passe gratuite après un piquer ou après un mouvement pour récupérer le palet.",
+        "fr-CA": "Peut effectuer une action de passe gratuite après un piquer ou après un mouvement pour récupérer la rondelle."
       }
     },
     {
@@ -682,7 +702,7 @@
       "Speed": 2,
       "Text": {
         "en": "Checked opponents cannot use re-rolls.",
-        "fr": "Les adversaires en échec, ne peuvent pas effectuer de relance."
+        "fr-FR": "Les adversaires en échec, ne peuvent pas effectuer de relance."
       }
     },
     {
@@ -692,7 +712,8 @@
       "Speed": 1,
       "Text": {
         "en": "After becoming the puck carrier, may move 1 square and perform a free pass.",
-        "fr": "Lorsqu'il devient le porteur du palet, il peut se déplacer d'une case et faire une action de passe gratuite."
+        "fr-FR": "Lorsqu'il devient le porteur du palet, il peut se déplacer d'une case et faire une action de passe gratuite.",
+        "fr-CA": "Lorsqu'il devient le porteur de la rondelle, il peut se déplacer d'une case et faire une action de passe gratuite."
       }
     },
     {
@@ -702,7 +723,7 @@
       "Speed": 1,
       "Text": {
         "en": "Can check opposing players.",
-        "fr": "Peut mettre en échec les joueurs adverses."
+        "fr-FR": "Peut mettre en échec les joueurs adverses."
       }
     },
     {
@@ -712,7 +733,7 @@
       "Speed": 1,
       "Text": {
         "en": "May move up to three times with one reaction move (orthogonally!)",
-        "fr": "Peut se déplacer jusqu'à 3 fois lors d'un mouvement de réaction (orthogonalement)."
+        "fr-FR": "Peut se déplacer jusqu'à 3 fois lors d'un mouvement de réaction (orthogonalement)."
       }
     },
     {
@@ -722,7 +743,7 @@
       "Speed": 1,
       "Text": {
         "en": "Can move diagonally.",
-        "fr": "Peut se déplacer diagonalement."
+        "fr-FR": "Peut se déplacer diagonalement."
       }
     }
   ]

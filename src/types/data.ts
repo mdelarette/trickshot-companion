@@ -1,6 +1,7 @@
 export type LocalizedText = {
   en: string;
-  fr: string;
+  'fr-FR': string;
+  'fr-CA'?: string;
 }
 
 export type Position = 'center' | 'winger' | 'defenseman' | 'goalie';
@@ -31,11 +32,14 @@ export type GameData = {
   Attributes: Attribute[];
 }
 
-export type SupportedLanguage = 'en' | 'fr' | 'fr-FR' | 'fr-CA';
+export type SupportedLanguage = 'en' | 'fr-FR' | 'fr-CA';
 
 export function getLocalizedText(text: LocalizedText, language: string): string {
+  if (language === 'fr-CA' && text['fr-CA']) {
+    return text['fr-CA'];
+  }
   if (language.startsWith('fr')) {
-    return text.fr;
+    return text['fr-FR'];
   }
   return text.en;
 }

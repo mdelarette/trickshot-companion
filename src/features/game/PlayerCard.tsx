@@ -21,6 +21,9 @@ const PlayerCard = ({ player }: PlayerCardProps) => {
 
   const { t } = useTranslation();
 
+  const positionText = t(player.Position);
+  const positionFontSize = (userLangage === 'en' && positionText.length > 8) ? '36px' : '48px';
+
   return (
     <Box
       height={2.5 * 72 * 1.2}
@@ -53,11 +56,11 @@ const PlayerCard = ({ player }: PlayerCardProps) => {
             fontFamily: 'Anta, sans-serif',
             fontStyle: 'italic',
             textShadow: '2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff, 1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff',
-            fontSize: '48px',
+            fontSize: positionFontSize,
             color: 'blueviolet'
           }}
         >
-          {t(player.Position)}
+          {positionText}
         </Typography>
 
         <Typography

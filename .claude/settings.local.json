@@ -3,7 +3,8 @@
     "allow": [
       "Bash(git mv:*)",
       "Bash(tree:*)",
-      "Bash(git -C \"C:\\\\Users\\\\mdelarette\\\\source\\\\trickshot-companion\" log --oneline -5)"
+      "Bash(git -C \"C:\\\\Users\\\\mdelarette\\\\source\\\\trickshot-companion\" log --oneline -5)",
+      "Bash(npm outdated:*)"
     ]
   }
 }

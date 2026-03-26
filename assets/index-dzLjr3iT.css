@@ -1,0 +1,1 @@
+#root{width:100%;max-width:1280px;margin:0 auto}@media print{@page{margin:.5cm}header,.MuiAppBar-root{display:none!important}#root{max-width:none}.print-card{break-inside:avoid;page-break-inside:avoid}}body{background-color:#c6e0e0;min-width:320px;min-height:100vh;margin:0}@media print{body{background-color:#0000}}

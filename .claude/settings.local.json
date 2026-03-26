@@ -4,7 +4,11 @@
       "Bash(git mv:*)",
       "Bash(tree:*)",
       "Bash(git -C \"C:\\\\Users\\\\mdelarette\\\\source\\\\trickshot-companion\" log --oneline -5)",
-      "Bash(npm outdated:*)"
+      "Bash(npm outdated:*)",
+      "Bash(node:*)",
+      "Bash(npx eslint:*)",
+      "Bash(npx tsc:*)",
+      "Bash(npm run:*)"
     ]
   }
 }
